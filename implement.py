@@ -1,4 +1,4 @@
-from get_data import *
+from get_fanpage_data import *
 import pickle
 import facebook
 import requests
