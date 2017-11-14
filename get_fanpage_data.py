@@ -181,7 +181,7 @@ def implement(token_string, FP_info_list):
             bar_out.update(page_count)
             page_count_out += 1
 
-        except GraphAPIError:
+        except:
             token_string = input("fill in the token : ")
             fp_data_list = get_data(token_string, fp[0])
             all_data.extend(fp_data_list)
