@@ -7,7 +7,7 @@ import progressbar
 from datetime import datetime
 from datetime import timedelta
 
-with open("abc.txt", "rb")as c:
+with open("test_list.txt", "rb")as c:
     FP_info_list = pickle.load(c)
     
 
