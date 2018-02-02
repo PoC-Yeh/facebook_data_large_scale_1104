@@ -166,7 +166,7 @@ def get_data(token_string, fan_page_id):
     
     return(final_list)
     
-    
+"""    
 def implement(token_string, FP_info_list):
     bar_out = progressbar.ProgressBar(max_value=progressbar.UnknownLength)
     page_count_out = 1
@@ -194,3 +194,4 @@ def implement(token_string, FP_info_list):
 
     with open("all_data_{}.txt".format(thousand_count), "wb")as c:
         pickle.dump(all_data, c)  
+"""   
